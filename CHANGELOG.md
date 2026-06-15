@@ -7,6 +7,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [1.0.5] – 2026-06-15
+
+### Removed
+
+- **Unused `scripting` permission** – Removed from `manifest.json` to comply with Chrome Web Store Least Privilege policies (fixes Purple Potassium policy rejection).
+
+---
+
 ## [1.0.4] – 2026-06-15
 
 ### Added

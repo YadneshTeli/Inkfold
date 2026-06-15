@@ -31,7 +31,6 @@ MD-Export requests access to Chrome's `storage` permission solely to save local 
 To function correctly, the Extension requests the following browser permissions:
 - **`activeTab`**: Allows the extension to read and copy messages from the currently active AI chat page when you click the popup or panel buttons.
 - **`downloads`**: Allows the extension to download the generated Markdown, DOCX, or PDF files directly to your local downloads folder.
-- **`scripting`**: Allows the extension to safely inject content scraper logic into the active chat interface.
 - **`storage`**: Used to persist your default export formats locally in your browser.
 - **`clipboardWrite`**: Used to support the "Copy as Markdown" function, writing text directly to your system clipboard upon request.
 
